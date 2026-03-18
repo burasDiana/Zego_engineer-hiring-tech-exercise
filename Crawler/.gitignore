@@ -1,0 +1,47 @@
+﻿# Build artifacts
+bin/
+obj/
+out/
+
+# IDE settings
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+*.DotSettings.user
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Docker
+docker/*.tar
+docker/*.img
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Publish output
+publish/
